@@ -18,5 +18,8 @@ public enum Operator {
     LTE,
     NOT_IN,
     AND,
-    OR
+    OR,
+    GROUP_BY,
+    GROUP,
+    NON_GROUP
 }

@@ -1,5 +1,8 @@
 package com.m2a.db.query;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -24,7 +27,13 @@ public class GroupBy implements Iterable<GroupBy.GroupByProperty>, Serializable 
         return this.properties.iterator();
     }
 
-    public record GroupByProperty(String propertyName) implements Serializable {
-        //iterate record
+    @Getter
+    @Setter
+    public static class GroupByProperty implements Serializable {
+        private String propertyName;
+
+        public GroupByProperty(String propertyName) {
+            this.propertyName = propertyName;
+        }
     }
 }

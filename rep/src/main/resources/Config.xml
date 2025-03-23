@@ -1,0 +1,5 @@
+<!-- config.xml -->
+<configuration>
+    <property name="app.name" value="framework"/>
+    <property name="app.version" value="0.0.1"/>
+</configuration>
