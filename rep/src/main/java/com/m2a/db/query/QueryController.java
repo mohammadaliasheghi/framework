@@ -342,7 +342,7 @@ public class QueryController {
                 whereStringBuffer.append(columnExpression);
                 if (Operator.EQUAL.equals(paramOperator))
                     whereStringBuffer.append(" = ?");
-                if (Operator.NOTEQUAL.equals(paramOperator))
+                if (Operator.NOT_EQUAL.equals(paramOperator))
                     whereStringBuffer.append(" <> ?");
                 if (Operator.GT.equals(paramOperator))
                     whereStringBuffer.append(" > ?");

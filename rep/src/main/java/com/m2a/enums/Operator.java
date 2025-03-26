@@ -4,7 +4,7 @@ public enum Operator {
 
     IN,
     EQUAL,
-    NOTEQUAL,
+    NOT_EQUAL,
     EXISTS,
     IS_NULL,
     NOT_NULL,
@@ -21,5 +21,6 @@ public enum Operator {
     OR,
     GROUP_BY,
     GROUP,
-    NON_GROUP
+    NON_GROUP,
+    SQL_QUERY
 }

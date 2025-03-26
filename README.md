@@ -25,6 +25,10 @@ For further reference, please consider the following sections:
 * [hibernate](https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core)
 * [dbutils](https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils)
 * [beanutils](https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils)
+* [jpa](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
+* [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
+* [jakarta-servlet-api](https://mvnrepository.com/artifact/javax.servlet/servlet-api)
+* [spring-web](https://mvnrepository.com/artifact/org.springframework/spring-web)
 
 ### Maven Parent overrides
 

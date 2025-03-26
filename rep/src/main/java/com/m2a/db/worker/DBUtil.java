@@ -81,7 +81,7 @@ public class DBUtil {
     }
 
     public <E> List<E> executeQueryList(Class<E> clz, String sql, Object... params) {
-        DbListWork<E> dbWork = new DbListWork<E>(sql, params, clz);
+        DbListWork<E> dbWork = new DbListWork<>(sql, params, clz);
         session.doWork(dbWork);
         this.logger(sql);
         return dbWork.getInstance();
