@@ -5,6 +5,7 @@ import lombok.Getter;
 
 @MappedSuperclass
 @Getter
+@Deprecated
 public abstract class BasePO implements EntityModel<Long> {
 
     private Long id;
