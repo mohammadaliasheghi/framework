@@ -38,4 +38,4 @@ parent.
 To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
-#### Jar path to use another aap `(.m2\repository\com\m2a\rep\0.0.1)`
+#### Jar path to use another app `(.m2\repository\com\m2a\rep\0.0.1)`
