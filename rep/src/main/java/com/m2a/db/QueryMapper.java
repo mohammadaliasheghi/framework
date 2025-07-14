@@ -290,15 +290,12 @@ public class QueryMapper {
                 e.fillInStackTrace();
             }
         }
-        //
+        //todo must be check val must not empty
         List<Predicate<?>> predicateList = new ArrayList<>();
         for (ParameterItem item : filterItems) {
             Object val = item.getValue();
             switch (val) {
                 case null -> {
-                    continue;
-                }
-                case String _ when StringUtil.isEmpty(String.valueOf(item.getValue())) -> {
                     continue;
                 }
                 case Date date -> {
